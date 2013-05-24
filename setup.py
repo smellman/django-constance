@@ -50,5 +50,6 @@ setup(
     extras_require={
         'database':  ['django-picklefield'],
         'redis': ['redis'],
-    }
+    },
+    zip_safe=False
 )
